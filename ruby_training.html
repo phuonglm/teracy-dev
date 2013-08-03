@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Document Writer Training &mdash; teracy-dev 0.0.1 documentation</title>
+    <title>Ruby Training &mdash; teracy-dev 0.0.1 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -23,9 +23,7 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <link rel="top" title="teracy-dev 0.0.1 documentation" href="index.html" />
-    <link rel="next" title="C/C++ Training" href="c_c++_training.html" />
-    <link rel="prev" title="Most used git commands" href="most_used_git_commands.html" /> 
+    <link rel="top" title="teracy-dev 0.0.1 documentation" href="index.html" /> 
   </head>
   <body>
     <div class="related">
@@ -34,12 +32,6 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
-        <li class="right" >
-          <a href="c_c++_training.html" title="C/C++ Training"
-             accesskey="N">next</a> |</li>
-        <li class="right" >
-          <a href="most_used_git_commands.html" title="Most used git commands"
-             accesskey="P">previous</a> |</li>
         <li><a href="index.html">teracy-dev 0.0.1 documentation</a> &raquo;</li> 
       </ul>
     </div>  
@@ -49,8 +41,29 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="document-writer-training">
-<h1>Document Writer Training<a class="headerlink" href="#document-writer-training" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="ruby-training">
+<h1>Ruby Training<a class="headerlink" href="#ruby-training" title="Permalink to this headline">¶</a></h1>
+<p>By default, <tt class="docutils literal"><span class="pre">teracy-dev</span></tt> will not install Ruby when <tt class="docutils literal"><span class="pre">$</span> <span class="pre">vagrant</span> <span class="pre">up</span></tt> to avoid too much provision
+time.</p>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>To install Ruby on your VM, follow these steps:</p>
+<div class="highlight-python"><pre>$ vagrant ssh
+$ cd /tmp &amp;&amp; wget https://raw.github.com/teracy-official/teracy-dev/master/scripts/rbenv.sh &amp;&amp; chmod +x rbenv.sh &amp;&amp; . ./rbenv.sh</pre>
+</div>
+<p>The downloaded script will:</p>
+<ul class="simple">
+<li>install <a class="reference external" href="https://github.com/sstephenson/rbenv">rbenv</a></li>
+<li>install Ruby 1.9.3-p194</li>
+</ul>
+<p>After the installation process, you should verify it works by:</p>
+<div class="highlight-python"><pre>$ ruby --version</pre>
+</div>
+<p>And you should see something like this:</p>
+<div class="highlight-python"><pre>ruby 1.9.3p194 (2012-04-20 revision 35410) [i686-linux]</pre>
+</div>
+<p>Congratulations, you can do all Ruby related stuffs now!</p>
+</div>
 </div>
 
 
@@ -59,15 +72,17 @@
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
-  <h4>Previous topic</h4>
-  <p class="topless"><a href="most_used_git_commands.html"
-                        title="previous chapter">Most used git commands</a></p>
-  <h4>Next topic</h4>
-  <p class="topless"><a href="c_c++_training.html"
-                        title="next chapter">C/C++ Training</a></p>
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Ruby Training</a><ul>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+</ul>
+</li>
+</ul>
+
   <h3>This Page</h3>
   <ul class="this-page-menu">
-    <li><a href="_sources/document_writer_training.txt"
+    <li><a href="_sources/ruby_training.txt"
            rel="nofollow">Show Source</a></li>
   </ul>
 <div id="searchbox" style="display: none">
@@ -93,12 +108,6 @@
         <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
-        <li class="right" >
-          <a href="c_c++_training.html" title="C/C++ Training"
-             >next</a> |</li>
-        <li class="right" >
-          <a href="most_used_git_commands.html" title="Most used git commands"
-             >previous</a> |</li>
         <li><a href="index.html">teracy-dev 0.0.1 documentation</a> &raquo;</li> 
       </ul>
     </div>
